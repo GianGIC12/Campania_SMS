@@ -286,12 +286,6 @@ public class Consultas {
 
         objCon.desconectar();
 
-        for (int i = 0; i < contadorDetalle2; i++) {
-
-            System.out.println(detalles[i].getCelular() + "*******");
-
-        }
-
     }
 
     public void mostrarNumeros() {

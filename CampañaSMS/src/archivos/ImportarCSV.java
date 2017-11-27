@@ -49,12 +49,6 @@ public class ImportarCSV {
 
         importar.close();
 
-        for (DataBean datas : data) {
-
-            System.out.println(datas.getCel() + " - " + datas.getStatus() + " - "
-                    + datas.getFecha() + " - " + datas.getPrecio() + " - " + datas.getMoneda());
-        }
-
     }
 
     public void importarData2() throws FileNotFoundException, IOException {
@@ -77,14 +71,6 @@ public class ImportarCSV {
         }
 
         importar.close();
-
-        System.out.println("*********************************************************");
-
-        for (DataBean datas : data2) {
-
-            System.out.println(datas.getCel() + " - " + datas.getStatus() + " - "
-                    + datas.getFecha() + " - " + datas.getPrecio() + " - " + datas.getMoneda());
-        }
 
     }
 

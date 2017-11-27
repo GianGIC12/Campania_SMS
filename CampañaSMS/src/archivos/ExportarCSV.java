@@ -45,8 +45,6 @@ public class ExportarCSV {
 
                 if ((datas.getCel()).equalsIgnoreCase(detalles[j].getCelular())) {
 
-                    System.out.println("Escrito*****" + j);
-
                     csvOutput.write(detalles[j].getCelular());
                     csvOutput.write(detalles[j].getApuestas() + "");
                     csvOutput.write(detalles[j].getMonto() + "");
@@ -82,11 +80,8 @@ public class ExportarCSV {
         for (DataBean datas : datita2) {
 
             for (int j = 0; j < contadorDetalles2; j++) {
-            
 
                 if ((datas.getCel()).equalsIgnoreCase(detalles2[j].getCelular())) {
-
-                    System.out.println("Escrito*****" + j);
 
                     csvOutput.write(detalles2[j].getCelular());
                     csvOutput.write(detalles2[j].getApuestas() + "");
